@@ -1,0 +1,164 @@
+body{
+	color:#cecece;
+}
+
+
+label p{
+	margin-bottom:11px;
+}
+
+button{
+	width:170px;
+	height:60px;
+}
+
+button span{
+	font-size:20px;
+}
+
+
+#wrap{
+	display:flex;
+	flex-direction:column-reverse;
+}
+
+#form_wrap{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	width:100%;
+	min-height:250px;
+}
+
+form{
+	width:100%;
+}
+
+.input_wrap{
+	width:289px;
+}
+
+input[type="number"]{
+	height:67.45px;
+	font-size:26px;
+}
+
+select{
+	height:67.45px;
+	font-size:1.4vw;
+}
+
+.font-mini{
+	font-size:1.8vw;
+}
+	
+.font-max{
+	font-size:5.5vw;
+}
+
+@media (max-width: 1300px){ /* Если портретная ориентация, то покрасить фон в красный */
+	
+	.display-6{
+		margin-bottom:30px;
+	}
+	
+	.input_wrap{
+		width:100%;
+	}
+
+	input[type="number"]{
+		height:47.45px;
+		font-size:16px;
+	}
+
+	select{
+		height:47.45px;
+	}
+
+	.font-mini{
+		font-size:2.3vw;
+	}
+	
+	.font-max{
+		font-size:5.5vw;
+	}
+}
+
+
+@media (max-width: 915px){ /* Если портретная ориентация, то покрасить фон в красный */
+	
+	
+	.input_wrap{
+		width:100%;
+	}
+
+	input[type="number"]{
+		height:47.45px;
+		font-size:16px;
+	}
+
+	select{
+		height:47.45px;
+	}
+
+	
+	.font-mini{
+		font-size:3.3vw;
+	}
+	
+	.font-max{
+		font-size:6.5vw;
+	}
+	
+	button{
+	width:150px;
+	height:50px;
+}
+
+	button span{
+		font-size:16px;
+	}
+
+}
+
+@media (max-width: 690px){ /* Если портретная ориентация, то покрасить фон в красный */
+	
+	.container{
+		width:100%;
+		
+	}
+	
+	.input_wrap{
+		width:100%;
+	}
+
+	input[type="number"]{
+		height:47.45px;
+		font-size:16px;
+	}
+
+	select{
+		height:47.45px;
+	}
+
+	
+	.font-mini{
+		font-size:5.3vw;
+	}
+	
+	.font-max{
+		font-size:6.9vw;
+	}
+	
+	button{
+	width:145px;
+	height:45px;
+}
+
+	button span{
+		font-size:16px;
+	}
+
+}
