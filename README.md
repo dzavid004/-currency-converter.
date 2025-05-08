@@ -3,10 +3,13 @@
 ![PHP](https://img.shields.io/badge/PHP-8.0-777BB4?logo=php)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap)
 
+
+
 ## 🔥 Возможности  
 - Конвертация RUB/USD/EUR/KZT  
 - Адаптивный дизайн (Bootstrap 5)  
 - Простой интерфейс  
+
 
 ## 📸 Скриншоты  
 
